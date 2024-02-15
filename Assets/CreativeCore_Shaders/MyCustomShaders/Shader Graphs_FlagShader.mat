@@ -36,6 +36,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _FlagTexture:
+        m_Texture: {fileID: 2800000, guid: 1080125c487958e468c59ceb6b00e6c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_d667bd85211a4df9ac4d07398ef8878b_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: b713ca4da899d6c408f3cae119312a02, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -54,6 +58,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Amplitude: 0.5
+    - _Frequency: 3
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors: []
